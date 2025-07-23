@@ -1,0 +1,128 @@
+.section2-container1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+}
+ 
+.section2-container2 {
+  gap: var(--dl-layout-space-sixunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.section2-text1 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.section2-text2 {
+  color: #10367d;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.section2-text3 {
+  fill: #10367D;
+  color: #10367D;
+  width: var(--dl-layout-size-xlarge);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+ 
+.section2-button {
+  fill: white;
+  color: white;
+  border-width: 0px;
+  background-color: #2B4EEF;
+}
+ 
+.section2-text4 {
+  font-size: 10px;
+}
+ 
+.section2-image1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.section2-image2 {
+  width: 333px;
+  object-fit: cover;
+}
+ 
+.section2-image3 {
+  left: -42px;
+  width: var(--dl-layout-size-large);
+  bottom: -27px;
+  position: absolute;
+  object-fit: cover;
+}
+ 
+.section2-fragment1 {
+  display: contents;
+}
+ 
+.section2-text5 {
+  display: inline-block;
+}
+ 
+.section2-fragment2 {
+  display: contents;
+}
+ 
+.section2-text6 {
+  display: inline-block;
+}
+ 
+.section2-fragment3 {
+  display: contents;
+}
+ 
+.section2-text7 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 767px) {
+  .section2-container1 {
+    height: 723px;
+  }
+  .section2-container2 {
+    flex-direction: column-reverse;
+  }
+  .section2-text1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .section2-text3 {
+    text-align: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .section2-container1 {
+    height: 670px;
+  }
+  .section2-container2 {
+    flex-direction: column-reverse;
+  }
+  .section2-text1 {
+    align-items: center;
+  }
+}

@@ -1,0 +1,38 @@
+.banner3112-container1 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+ 
+.banner3112-container2 {
+  width: 100%;
+  height: var(--dl-layout-size-xlarge);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.banner3112-image {
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgba(43, 78, 239, 0.5) 1.00%,rgba(43, 78, 239, 0.5) 100.00%),e0da4197-e0e4-4759-ad8d-8c24d30a7407;
+  background-position: center;
+}
+ 
+
+ 
+
+ 
+
+ 
+

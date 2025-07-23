@@ -1,0 +1,129 @@
+.section11-container1 {
+  width: 100%;
+  height: 640px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+ 
+.section11-container2 {
+  gap: var(--dl-layout-space-fourunits);
+  width: 849px;
+  height: 468px;
+  display: flex;
+  box-shadow: 1px 3px 5px 0px #d4d4d4;
+  align-items: center;
+  border-radius: var(--dl-layout-radius-inputradius);
+  justify-content: center;
+}
+ 
+.section11-container3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.section11-header {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.section11-text1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.section11-text2 {
+  width: var(--dl-layout-size-xxlarge);
+}
+ 
+.section11-text3 {
+  fill: #10367D;
+  color: #10367D;
+  width: var(--dl-layout-size-xxlarge);
+  font-style: normal;
+  font-weight: 200;
+}
+ 
+.section11-image {
+  width: 368px;
+  object-fit: cover;
+  border-radius: var(--dl-layout-radius-inputradius);
+}
+ 
+.section11-fragment1 {
+  display: contents;
+}
+ 
+.section11-text4 {
+  color: rgb(16, 54, 125);
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+}
+ 
+.section11-fragment2 {
+  display: contents;
+}
+ 
+.section11-text5 {
+  display: inline-block;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+ 
+.section11-fragment3 {
+  display: contents;
+}
+ 
+.section11-text6 {
+  display: inline-block;
+}
+ 
+.section11-text8 {
+  color: #fac10e;
+}
+ 
+
+ 
+
+ 
+@media(max-width: 767px) {
+  .section11-container1 {
+    height: 913px;
+  }
+  .section11-container2 {
+    width: 713px;
+    height: 895px;
+    padding: var(--dl-layout-space-fourunits);
+    flex-direction: column;
+  }
+  .section11-header {
+    width: 100%;
+  }
+  .section11-text3 {
+    width: 100%;
+  }
+  .section11-image {
+    width: 520px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .section11-container1 {
+    height: 1009px;
+  }
+  .section11-header {
+    width: 386px;
+  }
+  .section11-image {
+    width: 408px;
+  }
+}
